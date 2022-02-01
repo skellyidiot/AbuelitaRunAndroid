@@ -1,0 +1,512 @@
+fileFormatVersion: 2
+guid: e36099c8d505bbe4aa8545ada2816494
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7149034437471971896
+    second: datoys_0
+  - first:
+      213: 344338543123718458
+    second: datoys_1
+  - first:
+      213: -1996802130292743546
+    second: datoys_2
+  - first:
+      213: 560665394069995732
+    second: datoys_3
+  - first:
+      213: -765724974200473879
+    second: datoys_4
+  - first:
+      213: 8336333722068363864
+    second: datoys_6
+  - first:
+      213: 8470653309931647615
+    second: datoys_7
+  - first:
+      213: -7634558340309889610
+    second: datoys_8
+  - first:
+      213: -938272001623968666
+    second: datoys_9
+  - first:
+      213: -4404156849996301230
+    second: datoys_10
+  - first:
+      213: 1428282106094762935
+    second: datoys_11
+  - first:
+      213: 1630001564580251349
+    second: datoys_12
+  - first:
+      213: -7269816861681215502
+    second: datoys_13
+  - first:
+      213: 6038726403406215134
+    second: datoys_14
+  - first:
+      213: -1047083045416996628
+    second: datoys_15
+  - first:
+      213: 8712609214297673122
+    second: datoys_16
+  - first:
+      213: 1934710538877814929
+    second: datoys_17
+  - first:
+      213: 40734932758945630
+    second: datoys_18
+  - first:
+      213: 3631060267372270609
+    second: datoys_19
+  - first:
+      213: -1655855554880180889
+    second: datoys_20
+  - first:
+      213: 5432825757715701092
+    second: datoys_21
+  - first:
+      213: 5948550352253685225
+    second: datoys_22
+  - first:
+      213: 2205737679375559952
+    second: datoys_23
+  - first:
+      213: -1190674507820711920
+    second: datoys_24
+  - first:
+      213: 7275870476299879425
+    second: datoys_25
+  - first:
+      213: -4812495671257413395
+    second: datoys_26
+  - first:
+      213: -2420735669226106463
+    second: datoys_27
+  - first:
+      213: -4747015691284848660
+    second: datoys_28
+  - first:
+      213: -3016563014198614314
+    second: datoys_29
+  - first:
+      213: 2152605098026411785
+    second: datoys_30
+  - first:
+      213: -7932831354917414865
+    second: datoys_31
+  - first:
+      213: 6241798704546242757
+    second: datoys_32
+  - first:
+      213: 7465141743384128257
+    second: datoys_33
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 350
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: datoys_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1696
+        width: 272
+        height: 191
+      alignment: 9
+      pivot: {x: 0.46322802, y: 0.599002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a2d8491f8763360800000000000000
+      internalID: 7149034437471971896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datoys_1
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1710
+        width: 268
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a316d51a41657c400800000000000000
+      internalID: 344338543123718458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datoys_2
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1686
+        width: 225
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6826821ca0fe944e0800000000000000
+      internalID: -1996802130292743546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datoys_3
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1238
+        width: 285
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d085639432e7c700800000000000000
+      internalID: 560665394069995732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datoys_4
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1227
+        width: 312
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6b22561399f55f0800000000000000
+      internalID: -765724974200473879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datoys_6
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 812
+        width: 120
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85aaef83a5b90b370800000000000000
+      internalID: 8336333722068363864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datoys_7
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 835
+        width: 190
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7276f15e4ecd8570800000000000000
+      internalID: 8470653309931647615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datoys_8
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 1015
+        width: 213
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd45dc93a99c0690800000000000000
+      internalID: -7634558340309889610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datoys_9
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 778
+        width: 207
+        height: 276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6643280f5969af2f0800000000000000
+      internalID: -938272001623968666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datoys_10
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 964
+        width: 199
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25cfddcddaa41e2c0800000000000000
+      internalID: -4404156849996301230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datoys_11
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 729
+        width: 109
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb33d4120742d310800000000000000
+      internalID: 1428282106094762935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datoys_12
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 845
+        width: 189
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6032079cdee9610800000000000000
+      internalID: 1630001564580251349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: datoys_13
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 895
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f79859d41c6c1b90800000000000000
+      internalID: -7269816861681215502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
