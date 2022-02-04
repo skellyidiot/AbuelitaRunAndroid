@@ -38,6 +38,7 @@ public class Grito : MonoBehaviour
             grito = true;
             UI.SetActive(false);
             UI2.SetActive(false);
+            GritoUI.gameObject.GetComponent<gritoTouch>().touched = false;
         }
 
         if (grito == true && gritoDuring > 0)
