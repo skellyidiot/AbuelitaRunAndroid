@@ -8,6 +8,8 @@ TagManager:
   - doge
   - Spawnable2
   - kids
+  - GritoUI
+  - BeansUI
   layers:
   - Default
   - TransparentFX
@@ -23,7 +25,7 @@ TagManager:
   - toy
   - doge
   - bol
-  - 
+  - UI Interact
   - 
   - 
   - 
