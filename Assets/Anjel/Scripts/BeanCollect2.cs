@@ -14,7 +14,7 @@ public class BeanCollect2 : MonoBehaviour
 
     Animator anim;
 
-
+    public BeanTouch touch;
 
     private void Start()
     {
@@ -25,7 +25,7 @@ public class BeanCollect2 : MonoBehaviour
     void Update()
     {
 
-        if(inZone == true && Input.GetKeyDown(KeyCode.P) && sr.flipX == true)
+        if(inZone == true && touch.touched && sr.flipX == true)
         {
             count = 4;
             Debug.Log("BEAN");

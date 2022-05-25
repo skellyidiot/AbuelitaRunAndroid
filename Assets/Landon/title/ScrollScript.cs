@@ -4,31 +4,16 @@ using UnityEngine;
 
 public class ScrollScript : MonoBehaviour
 {
-    public float moveSpeed = 750f;
-
-    public Rigidbody2D rb;
-
-    Vector2 movement;
-
-
-    // Update is called once per frame
-    void Update()
+    // Add this script to the moveable object
+    public RectTransform rectTransform;
+    Vector3 offset;
+    public void GetOffset()
     {
-        movement.y = -Input.GetAxisRaw("Vertical");
-
-        if (Input.GetKey(KeyCode.LeftShift))
-        {
-            moveSpeed = 1500f;
-        }
-        else
-        {
-            moveSpeed = 750f;
-        }
+        offset = rectTransform.position - Camera.main.ScreenToWorldPoint(Input.mousePosition);
     }
-
-
-    void FixedUpdate()
+    public void MoveObject()
     {
-            rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        rectTransform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition) + offset;
+        rectTransform.position = new Vector3(0, rectTransform.position.y, 0);
     }
 }

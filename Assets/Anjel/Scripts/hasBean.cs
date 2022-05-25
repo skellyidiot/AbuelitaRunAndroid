@@ -10,6 +10,8 @@ public class hasBean : MonoBehaviour
     Rigidbody2D abuelarb2;
     Rigidbody2D thisrb2;
 
+    public BeanTouch touch;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +24,7 @@ public class hasBean : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (abuela.gameObject.GetComponent<BeanCollect2>().canBean == true && Vector3.Distance(abuelarb2.position, thisrb2.position) <= 1.5 && Input.GetKeyDown(KeyCode.P) && abuela.gameObject.GetComponent<BeanCollect2>().count > 0 && eatingBean == false)
+        if (abuela.gameObject.GetComponent<BeanCollect2>().canBean == true && Vector3.Distance(abuelarb2.position, thisrb2.position) <= 1.5 && touch.touched && abuela.gameObject.GetComponent<BeanCollect2>().count > 0 && eatingBean == false)
         {
             eatingBean = true;
             abuela.gameObject.GetComponent<BeanCollect2>().count -= 1;

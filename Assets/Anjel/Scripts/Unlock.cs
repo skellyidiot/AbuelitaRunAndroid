@@ -10,6 +10,8 @@ public class Unlock : MonoBehaviour
     void Start()
     {
         unlockendless = true;
+        PlayerPrefs.SetInt("Unlocked", (unlockendless ? 1 : 0));
+        PlayerPrefs.Save();
     }
 
     // Update is called once per frame

@@ -23,6 +23,8 @@ public class Countdown : MonoBehaviour
 
     public Text txtBeanCount;
 
+    public BeanTouch touch;
+
     private void Start()
     {
         abuelita = GameObject.Find("abuela");
@@ -48,21 +50,17 @@ public class Countdown : MonoBehaviour
             Counter -= Time.deltaTime;
         }
 
-        if (Input.GetKey(KeyCode.O) && (inZone == true) && Counter > 0 && abuelita.gameObject.GetComponent<SpriteRenderer>().flipX == true)
+        if (touch.held && (inZone == true) && Counter > 0 && abuelita.gameObject.GetComponent<SpriteRenderer>().flipX == true)
         {
             if (Counter < 40f)
             {
                 Counter += Time.deltaTime * 8;
             }
-        }
-
-        if (Input.GetKeyDown(KeyCode.O) && (inZone == true) && Counter > 0 && abuelita.gameObject.GetComponent<SpriteRenderer>().flipX == true)
-        {
-            stir.Play();
+            if (!stir.isPlaying) stir.Play();
             stirUI.gameObject.SetActive(true);
         }
 
-        if (Input.GetKeyUp(KeyCode.O) || (inZone == false) || abuelita.gameObject.GetComponent<SpriteRenderer>().flipX == false)
+        if (!touch.held || (inZone == false) || abuelita.gameObject.GetComponent<SpriteRenderer>().flipX == false)
         {
             stir.Stop();
             stirUI.gameObject.SetActive(false);
